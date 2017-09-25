@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return HttpResponse("You must create a dragon!")
+    return HttpResponse("You <u>must</u> create a <b>dragon</b>! <img src=dragon.jpg>")
